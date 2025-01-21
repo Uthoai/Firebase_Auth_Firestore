@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "298736056976",
+    "project_id": "jetpackcomposeauthfirebase",
+    "storage_bucket": "jetpackcomposeauthfirebase.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:298736056976:android:89e2898217a7ed46de3615",
+        "android_client_info": {
+          "package_name": "com.firebase.auth.firestore"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-zc-0erUbtKJli82Z1nByfF1BMQz_kZY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
