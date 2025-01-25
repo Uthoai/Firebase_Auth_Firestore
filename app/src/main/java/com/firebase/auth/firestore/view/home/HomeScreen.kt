@@ -154,9 +154,10 @@ fun HomeScreen(navController: NavController) {
                         email = email.value
                     ).collect { result->
                         if (result != null){
-                            name.value = result.name.toString()
+                            /*name.value = result.name.toString()
                             email.value = result.email.toString()
-                            phoneNumber.value = result.phoneNumber.toString()
+                            phoneNumber.value = result.phoneNumber.toString()*/
+                            Toast.makeText(localContext, result.phoneNumber.toString(), Toast.LENGTH_SHORT).show()
                         }else{
                             Toast.makeText(localContext, "User not found", Toast.LENGTH_SHORT).show()
                         }
